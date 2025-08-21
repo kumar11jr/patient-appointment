@@ -1,0 +1,11 @@
+.blue-container {
+  background-color: #c2e0ff; /* Light blue */
+  height: 350px;
+
+  /* Flexbox for vertical centering */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
