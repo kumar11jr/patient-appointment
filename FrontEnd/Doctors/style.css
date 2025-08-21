@@ -1,0 +1,151 @@
+/* General Styles */
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #ffffff;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #0d6efd; /* Bootstrap primary */
+}
+
+/* Navbar */
+.navbar {
+  padding: 1rem 0;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  color: #0d6efd !important;
+}
+
+.nav-link {
+  color: #333 !important;
+  margin-left: 10px;
+  transition: all 0.3s ease;
+}
+
+.nav-link.active,
+.nav-link:hover {
+  color: #0d6efd !important;
+  font-weight: 500;
+}
+
+/* Hero Section */
+.hero-section {
+  background: #f8f9fa;
+  padding: 120px 0 80px;
+}
+
+.hero-section h1 {
+  font-size: 2.5rem;
+  margin-top: 10px;
+}
+
+.hero-section p.lead {
+  color: #555;
+  font-size: 1.1rem;
+}
+
+/* Doctor Cards */
+.doctor-card {
+  border: none;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.doctor-card img {
+  height: 300px;
+  object-fit: cover;
+}
+
+.doctor-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.doctor-card h6 {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.doctor-card h5 {
+  margin-top: 5px;
+  font-size: 1.2rem;
+}
+
+/* CTA Section */
+.cta-section {
+  background: #f1f6ff;
+  border-radius: 12px;
+}
+
+.cta-section h2 {
+  font-size: 1.8rem;
+}
+
+.cta-section .btn {
+  padding: 10px 25px;
+  border-radius: 30px;
+}
+
+/* Newsletter Section */
+.newsletter-section input {
+  border-radius: 30px;
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+}
+
+.newsletter-section button {
+  border-radius: 30px;
+  padding: 10px 20px;
+}
+
+.newsletter-section h3 {
+  font-size: 1.6rem;
+}
+
+/* Footer */
+.footer {
+  font-size: 0.9rem;
+}
+
+.footer h6 {
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.footer a {
+  color: #ddd;
+  font-size: 0.9rem;
+  transition: color 0.3s ease;
+}
+
+.footer a:hover {
+  color: #0d6efd;
+}
+
+/* Animations for scroll */
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
