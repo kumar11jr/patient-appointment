@@ -1,11 +1,43 @@
 .blue-container {
-  background-color: #c2e0ff; /* Light blue */
-  height: 350px;
-
-  /* Flexbox for vertical centering */
+  background-color: #d7ebff;
+  min-height: 400px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   color: black;
+  margin-top: 0;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
+
+.display-5{
+  font-weight: 600;
+  font-size: 3rem;
+}
+
+.custom-bold-600 {
+  font-weight: 450;
+  font-size: 25px;
+}
+
+.custom_bold{
+  font-weight: 500;
+  margin-top: -30px;
+  margin-bottom: 85px;
+}
+
+.btn {
+  color: white;
+  padding: 10px 25px;
+  border-radius: 50px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #333366;
+}
+
+
